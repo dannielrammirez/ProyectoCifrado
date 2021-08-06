@@ -20,8 +20,8 @@ namespace ConsolaCifrado
 
         private void btnCifrar_Click(object sender, EventArgs e)
         {
-            textoClave = textBoxTextClave.Text.ToUpper();
-            textoOriginal = textBoxTextOriginial.Text.ToUpper();
+            textoClave = textBoxTextClave.Text;
+            textoOriginal = textBoxTextOriginial.Text;
 
             if (string.IsNullOrEmpty(textoClave) || string.IsNullOrEmpty(textoOriginal))
             {

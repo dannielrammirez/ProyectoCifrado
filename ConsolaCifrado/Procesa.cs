@@ -14,7 +14,7 @@ namespace ConsolaCifrado
         string[,] arrayMulti;
         List<TuplaMatriz> dicTuplas = new List<TuplaMatriz>();
 
-        const string arrayAbc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        const string arrayAbc = "abcderghijklmnopqrstuvwxyxABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 ";
         public Procesa(string _textoClave, string _textoOriginal)
         {
             textoClave = _textoClave;
